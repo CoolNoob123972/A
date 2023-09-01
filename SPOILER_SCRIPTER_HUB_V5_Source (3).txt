@@ -1,0 +1,802 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/KavoUI/main/KavoUiLib"))()
+local Window = Library.CreateLib("SCRIPTER HUB V5", "Sentinel")
+local players = game:GetService("Players")
+
+local players = game:GetService("Players")
+local lplr = players.LocalPlayer
+
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = true
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(0.147058845, 0, 0.173898071, 0)
+ImageButton.Size = UDim2.new(0, 62, 0, 53)
+ImageButton.Image = "http://www.roblox.com/asset/?id=9058466125"
+ImageButton.Active = true
+ImageButton.Draggable = true
+ImageButton.MouseButton1Click:Connect(function()
+    Library:ToggleUI()
+end)
+
+
+local Tab = Window:NewTab("SCRIPT 1")
+local Section = Tab:NewSection("GAME SCRIPT 1")
+
+Section:NewButton("Boxing beta", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UqxpNT9F"))()
+    print("Clicked")
+end)
+
+Section:NewButton("HITBOX EXPANDER", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("MM2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+    print("Clicked")
+end)
+
+Section:NewButton("POP IT TRADING", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kiroftt/popit/main/scripx'))()
+    print("Clicked")
+end)
+
+Section:NewButton("TOWER OF HELL", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Permanent animation", "Not working", function()
+loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1016359889246879802/1039819753402941460/Protected.lua",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("BIG PAINT BALL", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    print("Clicked")
+end)
+
+Section:NewButton("NAVAL WARFARE", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KweeperDotJS/Aentrix/main/main.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Build a boat", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("EVADE", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+    print("Clicked")
+end)
+
+Section:NewButton("SLAP BATTLE", "ButtonInfo", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua")))()
+    print("Clicked")
+end)
+
+Section:NewButton("ABILITY WARS", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KweeperDotJS/Aentrix/main/main.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("BUILD A BOAT", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("DA HOOD", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FREEZER SCRIPT", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Strongest battlegrounds", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("FPS UNLOCKER", "ButtonInfo", function()
+_G.Settings = {
+    Players = {
+        ["Ignore Me"] = true, -- Ignore your Character
+        ["Ignore Others"] = true-- Ignore other Characters
+    },
+    Meshes = {
+        Destroy = false, -- Destroy Meshes
+        LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING)
+    },
+    Images = {
+        Invisible = true, -- Invisible Images
+        LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING)
+        Destroy = false, -- Destroy Images
+    },
+    ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles
+    ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects)
+    ["No Explosions"] = true, -- Makes Explosion's invisible
+    ["No Clothes"] = true, -- Removes Clothing from the game
+    ["Low Water Graphics"] = true, -- Removes Water Quality
+    ["No Shadows"] = true, -- Remove Shadows
+    ["Low Rendering"] = true, -- Lower Rendering
+    ["Low Quality Parts"] = true -- Lower quality parts
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("GAME SCRIPT 2")
+local Section = Tab:NewSection("SCRIPT 2")
+
+Section:NewButton("Blox Fruits 🐯", "Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+    print("Clicked")
+end)
+    
+    Section:NewButton("Arsenal 🔫", "Script", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Murder Mystery 2 🤔 ", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+    print("Clicked")
+end)
+
+Section:NewButton("BIG Paintball!!! 🔫 ", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Funky Friday 🎤", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("KAT 🔪 & 🔫 ( OP BRING ALL )", "Script", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/TDBuxW7W'))()
+    print("Clicked")
+end)
+
+Section:NewButton("KAT 🔪 & 🔫 ( Owl Hub )", "Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("BEDWARS AND FE HUB")
+local Section = Tab:NewSection("FE HUBS AND BEDWARS")
+
+Section:NewButton("AURORA", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XStormDeveloper/AuroraForRoblox/main/lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SNOW X V2", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/uaahjajajqoqiqkqhwhwhw/SCRIPTERV3/main/SNOW%20X%20V2"))()
+    print("Clicked")
+end)
+
+Section:NewButton("BedWar GUI", "idk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dorukqpx/Xrayon/main/xrayonv2.lua", true))()
+end)
+
+Section:NewButton("SOFT BED", "maybe not work", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/iWxWxX2M",true))()
+end)
+
+Section:NewButton("Future", "idk", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+Section:NewButton("Nightbed", "Credit to Owner", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/NightbedX/main/NightbedScriptLol/mostNightbed.lua", true))()
+end)
+
+Section:NewButton("Moonlight", "Maybe working", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/8pmX8/moonlight.cool/main/mlobfuscated.lua'))();
+end)
+
+Section:NewButton("YZFLOPPA", "Bedwars", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
+end)
+
+Section:NewButton("Jn Hh Gaming", "Bedwars", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JNHHGaming123/main/JN%20HH%20Gaming%20Bedwars%20V5",true))()
+end)
+
+Section:NewButton("VEZTWARE", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VeztWare/Vezt/main/Vezt%20-%20Bedwars.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("VAPE V4", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("KEYBOARD SCRIPT", "FOR VAPE V4", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end)
+
+Section:NewLabel("Troll gui")
+
+Section:NewButton("TROLL 1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QNrtLBiU"))()
+    print("Clicked")
+end)
+
+Section:NewButton("TROLL 2", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/9abbc0733af7c9113a5ecbaf4bb2ed5013a4e693/Ultimate%20Trolling%20GUI%20v1.5'))()
+    print("Clicked")
+end)
+
+Section:NewButton("TROLL 3", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("SCRIPT 3")
+local Section = Tab:NewSection("Game script 3")
+
+Section:NewButton("KEYBOARD SCRIPT", "FE SCRIPTS NEEDED", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("UNIVERSAL ESP", "U CAN SEE PEOPLE", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Custom edit (v2)", "CHECK SETTINGS AFTER U EXECUTE IT", function()
+getgenv().DisableWebhook = false
+loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+    print("Clicked")
+end)
+
+Section:NewButton("R6 SCRIPT", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ErJ7MBCy"))()
+    print("Clicked")
+end)
+
+Section:NewButton("NETBYPASS GUI", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FLY SCRIPT", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TeNifRrX"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("MANY SCRIPT")
+local Section = Tab:NewSection("30+ SCRIPT")
+
+Section:NewButton("SQUID GAME SCRIPT", "OP SCRIPT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFrench21/Hecta/main/Script/Squid%20Game"))()
+    print("Clicked")
+end)
+
+Section:NewButton("RIDE THE CART", "OP SCRIPT", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Cart-Ride-Into-Rdite!-Cart-Ride-Trolling-GUI-1498", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("PRISON LIFE", "ADMIN SCRIPT OR SMTH", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Ghost player gui", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Uranium hub (best script", "best script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/MobilePC.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("super fast attack", "go near npc", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/trumpxl/superfastattack/main/ghevaysao"))()
+    print("Clicked")
+end)
+Section:NewButton("Blacktrap (newui", "has key sytem", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/S4nZz/bt_project/main/Games/BlacktrapScript.txt'))()
+    print("Clicked")
+end)
+Section:NewButton("Neva hub", "no key sytem", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+    print("Clicked")
+end)
+Section:NewButton("hoho hub", "has key system and no key sytem", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    print("Clicked")
+end)
+Section:NewButton("Auto chest", "auto chest + server hop", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+    print("Clicked")
+end)
+Section:NewButton("zee hub", "Thai language (no key sytem)", function()
+loadstring(game:HttpGet("https://scriptdee.com/free/ZeeHubV2.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("zaque hub", "no key need", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+    print("Clicked")
+end)
+Section:NewButton("ego hub", "has key sytem", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/EgoLoaderMain", true))()
+    print("Clicked")
+end)
+Section:NewButton("Zen hub", "No key needed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+    print("Clicked")
+end)
+Section:NewButton("Cframe", "no key sytem", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Chiba hub", "white screen? Go setting scroll and click the white screen ", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHubcomeback/main/Chibacomebackbeta.txt'))()
+    print("Clicked")
+end)
+Section:NewButton("saxz", "has many fast attack Option", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GooD1020/SAZX_KAITANANDAiMbot_update/main/README.md"))()
+    print("Clicked")
+end)
+Section:NewButton("zamex hub", "will reset character when you execute the script", 
+function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+    print("Clicked")
+end)
+
+Section:NewButton("jmes hub", "no key sytem and always update", 
+function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("Project WD", "has key sytem always update",
+ function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+    print("Clicked")
+end)
+Section:NewButton("black trap", "work bf too", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/S4nZz/bt_project/main/Games/BlacktrapScript.txt'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Cutsences", "get ladder back. Jump",
+ function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cutsences/SteepSteps/main/SteepSteps.lua'))()
+    print("Clicked")
+end)
+Section:NewButton("made by amentes", "jump. remove fog", 
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Amenteso/robloxscripts/main/Key.lua",true))()
+    print("Clicked")
+end)
+Section:NewButton("made by iCucky", "ButtonInfo", 
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCuckyDev/RobloxScripts/main/Steep%20Steps"))()
+    print("Clicked")
+end)
+
+Section:NewButton("no name", "really good", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+    print("Clicked")
+end)
+Section:NewButton("Darkai", "?", 
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+    print("Clicked")
+end)
+Section:NewButton("Hydra", "?", 
+function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
+    print("Clicked")
+end)
+
+Section:NewButton("pls donate(op)", "?", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
+    print("Clicked")
+end)
+Section:NewButton("same as ☝️", "?", 
+function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+    print("Clicked")
+end)
+
+Section:NewButton("No name", "always update", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("MANY SCRIPT 2")
+local Section = Tab:NewSection("FULL OF SCRIPTS")
+
+Section:NewButton("Legend Of Speed", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1iMHrZ50", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("My Restaurant", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Car Dealership", "ButtonInfo", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Strongman simulator", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0strongmuscle", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Cart Ride To Rdite", "ButtonInfo", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Cart-Ride-Into-Rdite!-Cart-Ride-Trolling-GUI-1498", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Natural Disasters", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fencing Gui", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("BrookHaven 1", "ICEHUB GUI", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Section:NewButton("BrookHaven 2", "DeerieHub", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+
+Section:NewButton("MM2  1", "idk", function()
+   loadstring(game:HttpGet(('https://pastebin.com/raw/Aynzy8DW'),true))()
+end)
+
+Section:NewButton("MM2 2", "idk", function()
+loadstring(game:HttpGet("https://pastebin.com/fedNtyaL"))()
+end)
+
+Section:NewButton("MM2 3", "idl", function()
+loadstring(game:HttpGet("https://pastebin.com/aCrpc6SW"))()
+end)
+
+Section:NewButton("MM2 4", "idk", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/DihfjHj2'))()
+end)
+
+Section:NewButton("TOWER OF HELL 1", "admin command", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+Section:NewButton("TOWER OF HELL 2", "OP REL!", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+Section:NewButton("Darkrai X", "Arsenal OP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+end)
+
+Section:NewButton("Arsenal", "idk the name", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/xq7q0XPq"))()
+end)
+
+Section:NewButton("Da Hood GUI ", "DA HOOD", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/ZCiS8jSd'))()
+end)
+
+Section:NewButton("DaHood GUI V2", "New GUI", function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/.../main/....."),true))()
+end)
+
+Section:NewButton("Da Hood GUI V3", "DaHood Evil", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+
+Section:NewButton("Da Hood GUI V4", "DaHood Evil", function()
+   loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\71\97\109\101\114\69\109\105\108\105\97\110\111\70\70\47\116\114\105\112\95\47\109\97\105\110\47\72\117\98\10",true))()
+end)
+
+Section:NewButton("Da Hood GodMode", "GOD MODE", function()
+p = game.Players.LocalPlayer
+ch = p.Character
+
+ch.BodyEffects.Dead:Destroy()
+end)
+
+Section:NewButton("DaHood Silent Aim", "AIMBOT", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Impulseonyoutube/scripts/main/dahood"))()
+end)
+
+Section:NewButton("BloxFruit  1", "decent", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazerxl/overlazerxkaito-nahee/main/README.md"))()
+end)
+
+Section:NewButton("BloxFruit  2", "Decent", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/joi-droid/MaruHubBF/main/GOHANSSJ3'))()
+end)
+
+Section:NewButton("Blox Fruit 3", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NinoGod/NetnaYay/8d21ce23346c500c93bb8b4a71f7791e4058a70b/startload.lua'))()
+end)
+
+Section:NewButton("BloxFruit 4", "SUPER OP", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazerxl/overlazerxkaito-nahee/main/README.md"))()
+end)
+
+Section:NewButton("Sonic Speed Simulator 1", "Fast super Op", function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SkaysGG-2095"))()
+end)
+
+Section:NewButton("Sonic Speed Simulator 2", "FAST OP", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
+end)
+
+local Tab = Window:NewTab("MANY FE SCRIPTS")
+local Section = Tab:NewSection("HATS AND NO HATS")
+
+Section:NewButton("FLING SCRIPT", "AUTO UPDATES", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE PUNCH", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE RANGE FLING", "NO HATS", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gJC4kvgy'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE COOLKID GUI", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YsVaUfYQ'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE YEET", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE UTG 1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE UTG 2", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/4BZuyqvc'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE UTG 3", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/Sniff-Hub/main/Sniff%20Hub'))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE UTG 4", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HubbyScripts/FE-Trolling-Hub/main/source"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Chat Hax", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/XFdQEjzx", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("AKIBLOX SCRIPT HUB", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iQn7c2cq"))()
+    print("Clicked")
+end)
+
+Section:NewButton("HomeBrew HD ADMIN", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iQn7c2cq"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Bloody Knife", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/25P2tVPD"))()
+end)
+
+Section:NewButton("Among Us", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/vNiNzr34"))()
+end)
+
+Section:NewButton("Snake", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/naRUdxrc", true))()
+end)
+
+Section:NewButton("Spider", "", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/txsk1LJg'))()
+end)
+
+Section:NewButton("Gale Fighter", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/YCH5P19e"))()
+end)
+
+Section:NewButton("Backflip", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/n2gUwjc4"))()
+end)
+
+Section:NewButton("Hat Spin", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/32PbiWw1", true))()
+end)
+
+Section:NewButton("Psychopath", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9Lharw50"))()
+end)
+
+Section:NewButton("Slasher", "", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sVEn1Tza"))()
+end)
+
+Section:NewButton("Street Fighter Gloves", "", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BiXEtZ8M'))()
+end)
+
+local Tab = Window:NewTab("USEFUL")
+local Section = Tab:NewSection("Ability")
+Section:NewSlider("Walkspeed", "Changes how fast you walk.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s  
+end)
+Section:NewSlider("JumpPower", "Changes how fast you jump.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue) 
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = s 
+end)
+
+Section:NewToggle("Fov", "Changes The Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+Section:NewButton("Shift lock", "Perfect for mobiles", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/4BZuyqvc'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Language Translator", "yes", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Language-translator-/main/Language%20translator", true))()
+end)
+
+Section:NewButton("Fe Chat Bypasser", "bypasses words :0", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+end)
+
+Section:NewButton("Gamepasses", "Makes you own every gamepass not forever", function()
+game.Players.LocalPlayer.UserId = "2205774994"
+end)
+
+Section:NewButton("Freeze Time", "You will freeze not the other player", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/djAd7g2W'))()
+end)
+
+Section:NewButton("Jump", "only a jump button", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/qhBY6frK'))();
+end)
+
+Section:NewButton("Freeze", " FE Freeze", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/AkJS0PC7'))()
+end)
+
+Section:NewButton("Auto Jump Gui", "Jumper", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/vViq08jX'))()
+end)
+
+Section:NewButton("Auto Toxic Gui", "Be toxic", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-HH-Gaming-AutoToxic1/main/README.md",true))()
+end)
+
+Section:NewButton("NoClip", "Only go through the floor", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+end)
+
+Section:NewButton("Controller", "need to move great here", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/srtepuBM'))()
+end)
+
+local Tab = Window:NewTab("Admin Command")
+local Section = Tab:NewSection("Admin Commands")
+Section:NewButton("Infinite Yield", "OP Admin Command", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end)
+
+Section:NewButton("Leg Admin", "use '.'", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+    print("Clicked")
+end)
+
+Section:NewButton("CMD-X", "Admin Command", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("Fate's Admin", "Admin Command", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+    print("Clicked")
+end)
+    
+local Tab = Window:NewTab("SCRIPT HUBS")
+local Section = Tab:NewSection("SCRIPT 2")
+
+Section:NewButton("SCRIPT HUB 1", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/VcskV/main/Hub/main.lua", true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 2 (TROLL HUB)", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AkilExploitz/AkilBlox14-s-Script-Hub-v1.1/9abbc0733af7c9113a5ecbaf4bb2ed5013a4e693/Ultimate%20Trolling%20GUI%20v1.5'))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 3", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 4", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/Protected%20"))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 5", "ButtonInfo", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Davicoderliner/davigui/main/Daviguiv2loader.lua"),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 6", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mDxvKtZe"))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 7", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 8", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/brWwrinf'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 9", "ButtonInfo", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 10", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+    print("Clicked")
+end)
+
+Section:NewButton("SCRIPT HUB 11", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/RedCoat8102-obfuscated.lua"))()
+    print("Clicked")
+end)
+
+Section:NewLabel("SCRIPTER HUB V5")
+Section:NewLabel("END OF SCRIPT HUB")
+Section:NewLabel("CREDITS BY SCRIPTER_GAMING")
